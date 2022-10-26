@@ -8,6 +8,7 @@
     --lightgray: #F5F4FA;
     --border: #ECECEC;
     --flame: #EEEEEE;
+    --icony: #AFB1B8;
 
 }
 
@@ -126,6 +127,32 @@ body {
     color: var(--gray);
     font-weight: 500;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.envelope {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.envelope:hover {
+    --color3: var(--blue);
+
+}
+
+.telephonico {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.telephonico:hover {
+    --color3: var(--blue);
 
 }
 
@@ -134,6 +161,9 @@ body {
     font-weight: 500;
     text-decoration: none;
     margin-left: 32px;
+    padding: 0;
+    display: flex;
+    align-items: center;
 
 }
 
@@ -287,10 +317,43 @@ body {
     background-color: var(--white);
     flex-direction: column;
     width: 270px;
-    height: 368px;
+    height: 428px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     padding: 0;
+}
+
+.boxicon {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: var(--lightgray);
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.antenna {
+    display: flex;
+    align-items: center;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+}
+
+.diagram {
+    display: flex;
+    align-items: center;
+}
+
+.astronaut {
+    display: flex;
+    align-items: center;
 }
 
 .per {
@@ -305,26 +368,171 @@ body {
     margin-top: 50px;
 }
 
-
-
-
 .personal {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-top: 30px;
 }
 
 .position {
     color: var(--gray);
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
+    letter-spacing: 0.03em;
+    align-items: center;
+}
+
+.media {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    gap: 10px;
+}
+
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.circle {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--white);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
     margin-bottom: 30px;
 }
 
+.circle:hover {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    --color5: var(--white);
+    --color4: var(--white);
+}
 
+.customers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 94px;
+    margin: 0 auto;
+    justify-content: space-between;
+
+
+}
+
+.customersico {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+    margin-top: 50px;
+    justify-content: space-between;
+    padding: 0;
+
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+.boxicon2 {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    margin: 0 auto;
+    padding: 0;
+    border: solid;
+    size: 1px;
+    color: var(--icony);
+    border-radius: 4px;
+}
+
+.boxicon2:hover {
+    color: var(--blue);
+    --color4: var(--blue);
+    --color2: var(--blue);
+}
+
+.logo01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo03 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.logo6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
 
 .footercon {
     padding-top: 94px;
@@ -336,6 +544,7 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
+    display: flex;
 }
 
 .container06 {
@@ -482,6 +691,78 @@ body {
     margin: 0 auto;
 }
 
+.join1 {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.join2 {
+    font-weight: 700;
+    color: var(--white);
+    letter-spacing: 0.03em;
+}
+
+.join {
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+}
+
+.circle2 {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.instagram2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    --color5: var(--white)
+}
+
+.twitter2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    --color4: var(--white)
+}
+
+.facebook2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    --color4: var(--white)
+}
+
+.linkedin2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    --color4: var(--white)
+}
+
+.circle2:hover {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    --color5: var(--white);
+    --color4: var(--white);
+}
+
 .agency:hover {
     color: var(--blue);
 }
@@ -497,18 +778,22 @@ body {
 
 .footermail:hover {
     color: var(--blue);
+
 }
 
 .footertel:hover {
     color: var(--blue);
+
 }
 
 .teleaddress:hover {
     color: var(--blue);
+    --color3: var(--blue)
 }
 
 .teleaddress2:hover {
     color: var(--blue);
+    --color3: var(--blue);
 }
 
 .contact:visited {
